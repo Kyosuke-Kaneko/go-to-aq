@@ -80,6 +80,9 @@
         </v-menu>
       </v-toolbar-items>
     </v-app-bar>
+    <v-main>
+      <router-view />
+    </v-main>
     <v-footer color="primary" dark app>
       Vuetify
     </v-footer>
